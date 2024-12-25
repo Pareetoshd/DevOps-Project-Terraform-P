@@ -1,6 +1,5 @@
 # DevOps-Project-Terraform-P
 Project Overview: The Project that showcases my ability to leverage Infrastructure as Code (Iaac) principles with Terraform to automate and optimize workflows, specifically in a real-world application like Spotify.Terraform will be used to automate the creation and management of these playlists.
-
 Prerequisites: Before we start, make sure you have:-
  	Terraform Installed: Ensure Terraform is installed on your machine. 
  	Docker Installed: Make sure Docker is installed and running.
@@ -21,6 +20,7 @@ Start by setting up your Terraform project.
 ### 2. Define Provider
 
 In `main.tf`, define the Spotify provider:
+
 ![provider](https://github.com/user-attachments/assets/54b9f674-7cee-4711-884d-b797a166bb55)
 
 ### 3. Need API Key
@@ -47,6 +47,7 @@ Create a file named `.env` in VS CODE to store your Spotify application's Client
 ### 6. Run the Spotify Auth App and Get the API Key
 
 Make sure Docker Desktop is running, and start the authorization proxy server:
+
 docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
 ![DOCK](https://github.com/user-attachments/assets/5f4b2cf5-85a1-4b3a-bf4c-7f9853fc469c)
 
