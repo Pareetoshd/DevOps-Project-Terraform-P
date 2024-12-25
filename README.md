@@ -1,5 +1,6 @@
 # DevOps-Project-Terraform-P
 Project Overview: The Project that showcases my ability to leverage Infrastructure as Code (Iaac) principles with Terraform to automate and optimize workflows, specifically in a real-world application like Spotify.Terraform will be used to automate the creation and management of these playlists.
+
 Prerequisites: Before we start, make sure you have:-
  	Terraform Installed: Ensure Terraform is installed on your machine. 
  	Docker Installed: Make sure Docker is installed and running.
@@ -7,6 +8,7 @@ Prerequisites: Before we start, make sure you have:-
  	Spotify Developer Account: Register and create an application to get the Client ID and Client Secret.
  	Spotify Provider for Terraform: Install and configure the Spotify provider for Terraform.
  	VS Code Editor: Recommended for editing Terraform files.
+
 ## Steps to Complete the Project
 
 ### 1. Creating Terraform Code
@@ -64,13 +66,14 @@ Create a file named `.terraform.tfvars` in VS CODE to store API Key: [API Key wi
 1. Initialize the Terraform configuration:
 2. terraform init
 3. terraform apply
+
 After applying the Terraform configuration, log in to your Spotify account and verify that the playlists have been created and populated with the specified tracks.
 
 ### 11. Verify Playlists on Spotify
 ![Spotify Playlist](https://github.com/user-attachments/assets/4e60075e-4f47-4b94-bbe4-045666bf9480)
 
 
-THANKYOUVISITAGAIN
+THANKYOUVISITAGAIN❤️
 
 
 
